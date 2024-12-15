@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pico</title>
+    <link rel="stylesheet" href="css/mycss.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\css\bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark -top sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pocco!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Picco!</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </div>          
+      </div>
+  </nav>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!--carusel on the top of the page-->
+      <div class="carousel-inner" style="margin-bottom: 5px;">
+        <div class="carousel-item active" style="height: 700px">
+          <img src="https://img.freepik.com/premium-photo/italian-food_708558-398.jpg" class="d-block w-100" class="d-block h-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" style="top:5px; right: auto; z-index: 1;">
+              <h1><span style="color:yellow">CRISP AND</span><br> FRESH CHICKEN<br> MASTER CHEF</h1>
+              <a href="#" class="btn btn-warning">Order now</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 700px">
+          <img src="https://img.freepik.com/fotos-premium/deliciosa-pizza-italiana-pepperoni-al-estilo-dibujos-animados-fondo-arte-pop-retro_949611-1773.jpg" class="d-block w-100" class="d-block h-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" style="top:5px; right: auto; z-index: 1;">
+              <h1 style="color:black"><span>Super delicious</span></h1>
+              <h2 style="color:black">special pizza</h2>
+              <a href="#" class="btn btn-warning">Order now</a>
+          </div>
+        </div>
+        <div class="carousel-item" style="height: 700px">
+          <img src="https://img.freepik.com/premium-photo/fried-chicken-with-french-fries-nuggets-meal_1339-128468.jpg" class="d-block w-100"class="d-block h-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" style="top:5px; right: auto; z-index: 1;">
+            <pre>
+              <h1><span style="color:yellow">Italian food</span><br> with special sause</h1>
+            </pre>
+            <p>SItelian food with special sause is a flavor<br> you can find only in POCO.</p>
+            <a href="#" class="btn btn-warning">Order now</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  <!--cards-->
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100" style="background-color: #823ff5;">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_banner-img1.png" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Special for you monster pizza</h3>
+              <div class="position-relative bottom-0 start-50 translate-middle-x">
+                <a href="#" class="btn btn-warning">Order now</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-bg-danger">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_banner-img4.png" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Burger combo</h3>
+              <p class="card-text">3.90 jnly</p>
+              <div class="position-relative bottom-0 start-50 translate-middle-x">
+                <a href="#" class="btn btn-warning">Order now</a>
+              </div>            
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-bg-info">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_banner-img5.png" class="card-img-top" alt="...">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Food Menu</h3>
+              <p class="card-text">This weekend only</p>
+              <div class="position-relative bottom-0 start-50 translate-middle-x">
+                <a href="#" class="btn btn-warning">Order now</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--advertisement green-->
+  
+  <div class="row-md-3 text-center bg-success" style="height: 200px; margin-top: 10px;">
+    <div class="col">
+      <div class="btn-group">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" placeholder="1 people">1 people
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">2 people</a></li>
+          <li><a class="dropdown-item" href="#">3 people</a></li>
+          <li><a class="dropdown-item" href="#">4 people</a></li>
+        </ul>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false" placeholder="yy/mm/dd">yy/mm/dd
+        </button>
+        <ul class="dropdown-menu">
+        </ul>
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" placeholder="00:00 Am">00:00 Am
+        </button>
+        <ul class="dropdown-menu">
+        </ul>
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-warning" type="button">
+          BOOK A TABLE
+        </button>
+      </div>
+      <p style="text-align: center;">Booking request <span style="color:yellow">+39-055-123456</span>
+       or fill out the order form</p>
+    </div>
+    </div>
+  <!--header-->
+  <div style="text-align: center;">
+    <h2 style="color:rgb(218, 218, 19)">Hot Fresh
+    </h2>
+    <h2>
+      Shop our favourites
+    </h2>
+  </div>
+
+
+  <div class="slider-container">
+    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Назад</span>
+    </button>
+    <div class="slider row">
+      <div class="row row-cols-8 row-cols-md-4 g-3">
+        <!-- 8 карточек -->
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/50-1.png" alt="">
+          <h3>Trio caffe
+          </h3>
+          <h6>Trio cafe is Family owned establishement located in Bostan...</h6>
+          <h6>$12.18</h6>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/49-1.png" alt="">
+          <h3>Tagliatelle Molto
+          </h3>
+          <h6>A mighty meaty double helping of all the reasons you love ...</h6>
+          <div class="price">£15.61</div>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/48-1.png" alt="">
+          <h3>Supreme Pizza
+          </h3>
+          <h6>Ricotta, sun dried tomatoes, garlic, mozzarella cheese, topped ...</h6>
+          <div class="price">£6</div>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/47-1.png" alt="">
+          <h3>Summer Pizza
+          </h3>
+          <h6>Shrimp, Red Capsicum, Green Capsicum, Onion, Chilli flakes ...</h6>
+          <div class="price">£9.00</div>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/54.1.png" alt="">
+          <h3>Water Bottle
+          </h3>
+          <h6>Investing in a reusable water bottle that you can refill throughout...</h6>
+          <div class="price">£10.18</div>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/53-1.png" alt="">
+          <h3>Vegge Lover
+          </h3>
+          <h6>Extra-virgin olive oil, garlic, mozzarella cheese, onions ...</h6>
+          <div class="price">£14.90</div>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/52-1.png" alt="">
+          <h3>Tropicana Juice
+          </h3>
+          <h6>View great tasting Tropicana Orange Juice and Juice Drink Products...</h6>
+          <div class="price">£11.11</div>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+        <div class="card">
+          <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2020/08/51-1.png" alt="">
+          <h3>Trio Cheese
+          </h3>
+          <h6>Mouth watering pepperoni, cabanossi, mushroom, capsicum, black...</h6>
+          <div class="price">£16.93</div>
+          <span class="heart-icon" class="fa fa-heart"></span>
+          <button class="add-to-cart">&#128722;</button>
+        </div>
+      </div>
+      <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+    </button>
+  </div>
+</div>
+
+  <div class="container my-5" style="background-color:bisque">
+    <div class="row gy-4">
+      <!-- Special Combo Section -->
+      <div class="col-md-6">
+        <div class="menu-section">
+          <h2>Special Combo:</h2>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist1.jpg" alt="Happy Lunch Combo">
+            <div class="flex-grow-1">
+              <div class="menu-title">Happy Lunch Combo</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£4.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist2.jpg" alt="Weekend Combo">
+            <div class="flex-grow-1">
+              <div class="menu-title">Weekend Combo</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£13.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist3.jpg" alt="Family Combo">
+            <div class="flex-grow-1">
+              <div class="menu-title">Family Combo</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£33.95</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kids Menu Section -->
+      <div class="col-md-6">
+        <div class="menu-section">
+          <h2>Kids Menu:</h2>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist4.jpg" alt="Mostep Taco">
+            <div class="flex-grow-1">
+              <div class="menu-title">Mostep Taco</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£7.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist5.jpg" alt="Chocolate Shake">
+            <div class="flex-grow-1">
+              <div class="menu-title">Chocolate Shake</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£9.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist6.jpg" alt="Ice Cream">
+            <div class="flex-grow-1">
+              <div class="menu-title">Ice Cream</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£8.95</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Burgers Section -->
+      <div class="col-md-6">
+        <div class="menu-section">
+          <h2>Burgers:</h2>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist12.jpg" alt="Bacon Burger">
+            <div class="flex-grow-1">
+              <div class="menu-title">Bacon Burger</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£12.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist7.jpg" alt="Double Cheese Burger">
+            <div class="flex-grow-1">
+              <div class="menu-title">Double Cheese Burger</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£14.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist8.jpg" alt="Seafood Burger">
+            <div class="flex-grow-1">
+              <div class="menu-title">Seafood Burger</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£9.95</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chicken Section -->
+      <div class="col-md-6">
+        <div class="menu-section">
+          <h2>Chicken:</h2>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist11.jpg" alt="Chicken Crispy">
+            <div class="flex-grow-1">
+              <div class="menu-title">Chicken Crispy</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£6.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist9.jpg" alt="Fried Thigh">
+            <div class="flex-grow-1">
+              <div class="menu-title">Fried Thigh</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£8.95</div>
+          </div>
+          <div class="menu-divider"></div>
+          <div class="menu-item">
+            <img src="https://demo2.pavothemes.com/poco/wp-content/uploads/2022/12/h8_menulist10.jpg" alt="Teriyaki">
+            <div class="flex-grow-1">
+              <div class="menu-title">Teriyaki</div>
+              <div class="menu-description">Burger, coke, fries, chicken nuggets</div>
+            </div>
+            <div class="menu-price">£3.95</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="css\js\bootstrap.bundle.js"></script>
+</body>
+</html>

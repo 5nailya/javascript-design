@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #1B6392;
+    color: white;
+    padding: 10px 20px;
+    position: static;
+}
+
+/*наивгация*/
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    top: 22px;
+    right: 400px;
+    bottom: 12px;
+    left: 300px;
+    background: #1B6392;
+}
+
+.icon {
+    width: 40px;
+    height: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content:end;
+    cursor: pointer;
+    padding-inline-end: 3px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px 10px;
+    margin-left: 10px;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input {
+    width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 14px 20px;
+}
+
+input::placeholder {
+    color: var(--gray-500);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    scroll-padding-left: 10px;
+    text-decoration: none;
+    padding:0 15px;
+    border-right: solid;
+    border-left: solid;
+    border-collapse: collapse;
+    border-color: #333;
+    border-width: 1px;
+}
+.menu > a {
+    margin: 0 15px;
+    padding:0 15px;
+}
+
+.menu > p {
+    margin: 0 15px;
+    padding:0 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/*ячейки в первой секции*/
+.advertisement {
+    width: 30%;
+    text-align: center;
+    border: dotted;
+    cursor: pointer;
+}
+
+.images {
+    width: 130px;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* не работает-
+@media screen and (max-width: 300px) {
+    .advertisement{
+        flex-direction: column;
+        align-items: center;
+
+}
+    .images {
+        width: 300px;
+}
+}
+*/
+
+.advertisement button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.additional-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #e4e7e9;
+    border-radius: 6px;
+    margin-bottom: 72px;
+}
+  
+.info {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    width: 230px;
+}
+.bold {
+    font-weight: bold;
+}
+
+
+/*вторая секция*/
+.best-deals {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.best-deals h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.timer > button {
+    width: 154px;
+    height: 32px;
+    gap: 8px;
+    border-color: #F3DE6D;
+    position: relative;
+    float:none;
+}
+
+.timer {
+    margin-bottom: 20px;
+    background-color: #F3DE6D;
+    text-align: center;
+    align-items: center;  
+}
+  
+.first-item {
+    border: 1px solid #E4E7E9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    height: 800px;
+}
+
+/**/
+.product {
+    border:#002147;
+    margin-bottom: 72px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    justify-content: center;
+    border:#002147 solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+
+}
+
+.item > img {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-right: 5px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 5px;
+    padding-left: 35px;
+    align-self: center;
+
+}
+/*
+@media screen and (max-width: 768px) {
+    .product {
+       flex-direction: column;
+       column-count: 2;
+}
+
+    .item {
+        min-width: 350px;
+        max-width: 100%;
+
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .product {
+        flex-direction: flex;
+    }
+
+    .item {
+        min-width: 300px;    
+        max-width: 50%;    
+
+    }
+}
+*/
+.item button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #ff6f00;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.categories {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.categories-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 8px;
+    position: relative;
+
+
+}
+
+.category-item {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+    cursor: pointer;
+    overflow-wrap:normal;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 16px;
+
+}
+
+.category-item > img {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* image change while hover*/
+img:hover {
+    transform: scale(1.1);
+}
+
+.category-list {
+    display: flex;
+    overflow: hidden;
+    width: 90%;
+}
+
+/* кнопки для пролистывания*/
+button.scroll-left {
+    left: 10px;
+    background-color: #002147;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+button.scroll-right {
+    right: 10px;
+    background-color: #002147;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    display: flex;
+    align-items: center;
+}

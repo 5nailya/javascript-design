@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "category": "Necklaces",
+      "name": "Gold Pendant Necklace",
+      "description": "Elegant gold necklace with a teardrop pendant.",
+      "brand": "GoldenStyle",
+      "image": "https://www.abbottlyon.com/cdn/shop/products/abbott-lyon-organic-moonstone-sphere-chain-necklace-gold-28500921647170.png?crop=center&height=960&v=1663735855&width=850",
+      "price": 12000,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "category": "Necklaces",
+      "name": "Diamond Tennis Necklace",
+      "description": "Luxurious necklace encrusted with sparkling diamonds.",
+      "brand": "DiamondLux",
+      "image": "https://jewelrycouture.com/cdn/shop/products/LN4075_WHITE_18K_X_WHITE.png?v=1709683929",
+      "price": 50000,
+      "rating": 5.0
+    },
+    {
+      "id": 3,
+      "category": "Necklaces",
+      "name": "Silver Infinity Necklace",
+      "description": "Minimalist silver necklace with an infinity symbol pendant.",
+      "brand": "SilverCraft",
+      "image": "https://res.cloudinary.com/georgjensen/image/upload/f_auto,dpr_2/w_500,c_scale/products/images/hi-res/10013929_INFINITY_Necklace_Pendant?_i=AG",
+      "price": 4000,
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "category": "Necklaces",
+      "name": "Pearl Strand Necklace",
+      "description": "Timeless necklace featuring natural pearls.",
+      "brand": "PearlElegance",
+      "image": "https://auratenewyork.com/cdn/shop/products/IMG_7598-Edit_1200x.png?v=1542831751",
+      "price": 15000,
+      "rating": 4.9
+    },
+    {
+      "id": 5,
+      "category": "Necklaces",
+      "name": "Rose Gold Bar Necklace",
+      "description": "Trendy rose gold necklace with an engraved bar.",
+      "brand": "RoseJewels",
+      "image": "https://ourcoordinates.com/cdn/shop/products/engraved-bar-necklace-for-her-486031_800x.jpg?v=1670771500",
+      "price": 7000,
+      "rating": 4.7
+    },
+    {
+      "id": 6,
+      "category": "Necklaces",
+      "name": "Amethyst Pendant Necklace",
+      "description": "Beautiful necklace with an amethyst gemstone pendant.",
+      "brand": "PurpleGems",
+      "image": "https://www.zolotasjewelry.com/image/cache/catalog/ANTHEMION/ANTHEM%20OF%20LOVE/925/NECKLACE/I1350SSPA/anthem-of-love-necklace-in-925-silver-with-amethyst-gemstone-and-chain-in-925-silver-i1350sspa-p1-1000x1000.png",
+      "price": 10000,
+      "rating": 4.8
+    },
+    {
+      "id": 7,
+      "category": "Necklaces",
+      "name": "Turquoise Beaded Necklace",
+      "description": "Bohemian-style necklace with vibrant turquoise beads.",
+      "brand": "BohoVibe",
+      "image": "https://www.aobeipearl.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/e/t/ets-s1383_1__1.jpg",
+      "price": 5000,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "category": "Necklaces",
+      "name": "Gold Locket Necklace",
+      "description": "Vintage-inspired gold necklace with a locket pendant.",
+      "brand": "GoldenMemory",
+      "image": "https://png.pngtree.com/png-vector/20240111/ourmid/pngtree-vintage-heart-locket-png-image_11431072.png",
+      "price": 9500,
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "category": "Necklaces",
+      "name": "Choker Necklace",
+      "description": "Trendy black choker necklace with a delicate charm.",
+      "brand": "UrbanStyle",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTxBmNcqAL5XPECLoUm2hEgMZqWRBKl6vmg&s",
+      "price": 3000,
+      "rating": 4.4
+    },
+    {
+      "id": 10,
+      "category": "Necklaces",
+      "name": "Ruby and Diamond Necklace",
+      "description": "Luxurious necklace with rubies and diamond accents.",
+      "brand": "RubyGlam",
+      "image": "https://hamra.com/cdn/shop/products/31182_c_1200x1200.jpg?v=1693345309",
+      "price": 30000,
+      "rating": 4.9
+    },
+    {
+      "id": 11,
+      "category": "Necklaces",
+      "name": "Layered Gold Necklace",
+      "description": "Fashionable layered necklace in gold tones.",
+      "brand": "GoldenTrend",
+      "image": "https://i.pinimg.com/564x/72/6c/40/726c4036beddcf7eaf4a7c4e58f07c01.jpg",
+      "price": 8000,
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "category": "Necklaces",
+      "name": "Crystal Heart Necklace",
+      "description": "Charming necklace with a heart-shaped crystal pendant.",
+      "brand": "CrystalCraft",
+      "image": "https://brdjewelry.in/cdn/shop/files/1_1_d7a0a4fa-3046-42d2-93c7-636cf5abc88f.png?v=1723279829",
+      "price": 4500,
+      "rating": 4.5
+    },
+    {
+      "id": 13,
+      "category": "Necklaces",
+      "name": "Geometric Silver Necklace",
+      "description": "Modern necklace with geometric silver shapes.",
+      "brand": "SilverEdge",
+      "image": "https://gemsinstyle.com/cdn/shop/products/gis-magic-quad-silv-black-onyx-front_51a07482-631d-41cb-b803-e8779ff1fe93_2048x.png?v=1547260578",
+      "price": 6500,
+      "rating": 4.7
+    },
+    {
+      "id": 14,
+      "category": "Necklaces",
+      "name": "Moon and Star Necklace",
+      "description": "Whimsical necklace with moon and star designs.",
+      "brand": "CelestialCraft",
+      "image": "https://static.wixstatic.com/media/7658bb_f449a03f4ac5474ab99f554b2f47ab7c~mv2.png/v1/fill/w_980,h_900,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/7658bb_f449a03f4ac5474ab99f554b2f47ab7c~mv2.png",
+      "price": 4000,
+      "rating": 4.8
+    },
+    {
+      "id": 15,
+      "category": "Necklaces",
+      "name": "Engraved Name Necklace",
+      "description": "Customizable necklace with an engraved name pendant.",
+      "brand": "PersonalTouch",
+      "image": "https://i0.wp.com/concept-jewelry.com/wp-content/uploads/2024/09/1000023619.png?fit=2000%2C2000&ssl=1",
+      "price": 6000,
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "category": "Necklaces",
+      "name": "Emerald Pendant Necklace",
+      "description": "Sophisticated necklace with an emerald gemstone pendant.",
+      "brand": "GreenGem",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e191ad80896682b6acb0abb/1588058155863-I7S3236DLSX86JPCX58V/ARTP61700-DI-07.png?format=1000w",
+      "price": 20000,
+      "rating": 4.9
+    },
+    {
+      "id": 17,
+      "category": "Necklaces",
+      "name": "Diamond Cross Necklace",
+      "description": "Classic cross pendant encrusted with diamonds.",
+      "brand": "FaithJewels",
+      "image": "https://www.byenzojewelry.com/wp-content/uploads/2023/03/3ps098.webp",
+      "price": 18000,
+      "rating": 4.9
+    },
+    {
+      "id": 18,
+      "category": "Necklaces",
+      "name": "Rainbow Beaded Necklace",
+      "description": "Colorful necklace with multicolored beads.",
+      "brand": "RainbowStyle",
+      "image": "https://shopgug.com/cdn/shop/products/WebsiteAccessoryTemplate2-2022-07-08T084315.859.png?v=1657291018&width=2400",
+      "price": 3500,
+      "rating": 4.4
+    },
+    {
+      "id": 19,
+      "category": "Necklaces",
+      "name": "Leather Cord Necklace",
+      "description": "Rustic leather cord necklace with a charm pendant.",
+      "brand": "RuggedStyle",
+      "image": "https://www.orelia.co.uk/cdn/shop/files/ORE29528_Crop_1500x1500.progressive.png.jpg?v=1710243666",
+      "price": 2500,
+      "rating": 4.3
+    },
+    {
+      "id": 20,
+      "category": "Necklaces",
+      "name": "Gold Chain Necklace",
+      "description": "Simple gold chain necklace, perfect for layering.",
+      "brand": "GoldenLine",
+      "image": "https://splendidiris.com/cdn/shop/files/N7388-G_7aa407c4-0dbe-4738-bb67-30138b4ba855.jpg?v=1728864316&width=1500",
+      "price": 8000,
+      "rating": 4.7
+    }
+]
+  

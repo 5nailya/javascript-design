@@ -1,0 +1,21 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Hero Carousel */
+#hero-carousel .carousel-inner {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Card Carousel */
+#card-carousel .carousel-inner {
+    animation: slideInFromLeft 1s ease-out;
+}

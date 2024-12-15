@@ -1,0 +1,475 @@
+
+/*i take as a default width: 1530*/
+
+body {
+    width: 1000px;
+}
+
+/* icon on the images*/
+.hover-icon i:hover {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    right: 5px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+
+header {
+    width: 100%; /*100 % out of 1200px*/
+    height:150px;
+    display: flex;
+    .conteiner {
+        position: relative;
+        width:100%;
+        height:80px;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        align-content:center;
+        flex-grow: 1;
+        align-self: auto;
+        img {
+            width:30%;
+            height: 30px;
+        }
+        .left .right {
+            width:40%;
+            display:flex;
+            gap: 24px 24px;
+            height: 50px;
+            position: relative;
+            i:hover {
+                font-size: 20px;
+            }
+            i {
+                cursor: pointer;
+            }
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+    }
+    
+    nav {
+        height: 70px;
+        width: 100%;
+        position:sticky;
+        .menu {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            width: 90%;
+            position: fixed;
+            a {
+                text-decoration: none;
+                margin: 20px;
+                cursor: pointer; 
+            }
+            a:hover {
+                color: #110a01;
+                font-size: medium;
+            }
+            
+        }
+
+
+    }
+
+
+}
+
+
+.add {
+    width: 1280px;
+    height: 790px;
+    margin-bottom: 30px;
+    .div-add {
+        width:600px;
+        height: 790px !important;
+        img {
+            width: 50%;
+        }
+        .info {
+            width: 50%;
+            height: 790px;
+            button {
+                color: aliceblue;
+                width: 35%;
+                height: 55px;
+                font-size: 20px;
+                background-color: #ffa832;
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                padding: 20px 40px;
+                font-weight: 500;
+                text-align: center;
+            button::hover {
+                background-color: black;
+                cursor: pointer;
+                }
+            }
+            .title {
+                height: 23px;
+                width: 140px;
+                font-size: 20px;
+            }
+            .title h1 {
+                height: 130px;
+                width: 605px;
+                font-size: 50px;
+            }
+        .desc {
+            width: 605px;
+            height:72px;
+            margin-bottom: 30px;
+            color: #858585;
+            font-size: 18px;
+
+        }                 
+        }
+
+    }
+}
+
+.hhh {
+    width: 1280px;
+    height: 40px;
+    text-align: center;
+    font-size: 33px;
+}
+/*buttons to right to left*/
+.left-cursor .right-cursor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 50px;
+}
+.left-cursor {
+    left: -25px;
+}
+.right-cursor {
+    right: -25px;
+}
+.left-cursor .right-cursor:hover {
+    background-color: #ffa832;
+    color:#fff;
+}
+
+
+.arivals {
+    width: 1280px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    margin: 30px 5px;
+
+    .arival {
+        gap: 5px;
+        height:370px;
+        width: 310px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        flex-direction: column;
+
+        .photo {
+            height:310px;
+            width:310px;
+        }
+        .product-title {
+            width:310px;
+            height:60px;
+            padding: 10px;
+        }
+
+    }
+}
+
+.product-list {
+    transform: translate3d(-1733.33px, 0px, 0px);
+    transition-duration: 500ms;
+    width: 1530px;
+    height: 280px;
+    flex-direction: row;
+
+    .card {
+        flex-wrap: wrap;
+        gap: 5px;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        flex-direction: column;
+        img {
+            height: 197px;
+            width: 197px;
+            border-radius: 50%;            
+        }
+        img:hover {
+            transform: scale(1.1);
+
+        }
+    .card:hover {
+        p {
+            color: #ffa832;
+        }
+    }
+
+    }
+}
+
+/*you are living in living room*/
+.living-room {  /* this is heading*/
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    position:relative;
+    text-align: center;
+    font-size: 33px;
+}
+.living-room-product {
+    display: flex;
+    width: 1280px;
+    height: 450px;
+    overflow: hidden;
+
+
+    .left-cursor .right-cursor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .left-cursor .right-cursor:hover {
+        background-color: #ffa832;
+
+    }
+
+    .mebel {
+        width:605px;
+        height: 790px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        flex-direction: column;
+        img {
+            width: 305px;
+            height: 305px;
+            position: absolute;
+        }
+        
+        
+    }
+}
+.more {
+    text-align: center;
+    border: radius 50px;
+    background-color: #fff;
+}
+.more:hover {
+    background-color: #ffa832; 
+}
+
+.div-div {
+    background-image: url(https://miniture.novaworks.net/wp-content/uploads/2023/10/m3_bg_layer.png);
+    height: 500px;
+    width: 1280;
+    text-align: center;
+    .company {
+        text-align: center;
+        button {
+            background-color: #ffa832;
+            color: #fff;
+            border-radius: 50;
+            margin-bottom: 20px;
+        }
+        button:hover {
+            background-color: #110a01;
+        }
+        .time {
+            width: 400px;
+            height: 400px;
+            margin: 10px;
+            .days .hours .minut .sec {
+                background-color: #fff;
+                border-radius: 50%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media(max-width:600px) {
+    * {
+        text-align: center;
+        text-wrap: wrap;
+        display: flex;
+    }
+    .add {
+        flex-direction: column;
+        .div-add {
+            flex-direction: column;
+            grid-template-columns: auto;
+    
+        }
+    }                
+    .menu {
+        display: none;
+
+    }
+    .menu-icon {
+        display: flex;
+    }
+    .menu-icon:active li {
+        display: block;
+        left: auto;
+        flex-direction: column;
+        pad: 5px;
+    }
+    .arival {  /*with hover icons*/
+        width: 216px;
+
+        .photo { /*with hover icons*/
+            grid-template-columns:repeat(1, 1fr) ;
+            width: 55opx;
+            height: 550px;
+        }
+    }
+    
+    .hover-icon .button {
+        display: none;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
+    .div-div {
+        width: 550px;
+    }
+
+}
+
+@media(max-width:768px) {
+    * {
+        text-align: center;
+        text-wrap: wrap;
+        display: flex;
+    }
+    .add {
+        flex-direction: column;
+        .div-add {
+            flex-direction: column;
+            grid-template-columns: auto;
+    
+        }
+    }                
+    .menu {
+        display: none;
+
+    }
+    .menu-icon {
+        display: flex;
+    }
+    .menu-icon:active li {
+        display: block;
+        left: auto;
+        flex-direction: column;
+        pad: 5px;
+    }
+    .arival {  /*with hover icons*/
+        width: 216px;
+
+        .photo { /*with hover icons*/
+            grid-template-columns:repeat(3, 1fr) ;
+            width: 216px;
+            height: 216px;
+        }
+    }
+
+    .hover-icon .button {
+        display: none;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        flex-direction: column;
+        width: 157px;
+        height: 157px;
+    }
+
+    .div-div {
+        width: 688px;
+    }
+    
+}
+
+@media(max-width:992px) {
+    * {
+        text-align: center;
+        text-wrap: wrap;
+        display: flex;
+    }
+    .add {
+        flex-direction: column;
+        .div-add {
+            flex-direction: column;
+            grid-template-columns: repeat(2, 1fr);
+            img {
+                position: relative;
+                width: 50%;
+    
+            }
+        }                
+    } 
+    .menu {
+        display: none;
+
+    }
+    .menu-icon {
+        display: flex;
+    }
+    .menu-icon:active li {
+        display: block;
+        left: auto;
+        flex-direction: column;
+        pad: 5px;
+    }
+    .arival {  /*with hover icons*/
+        width: 216px;
+
+        .photo { /*with hover icons*/
+            grid-template-columns:repeat(3, 1fr) ;
+            width: 278px;
+            height: 278px;
+        }
+    }
+
+    .hover-icon .button {
+        display: none;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        flex-direction: column;
+        width: 203px;
+        height: 203px;
+    }
+
+    .div-div {
+        width: 872px;
+    }
+    
+}

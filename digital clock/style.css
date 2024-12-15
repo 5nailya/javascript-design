@@ -1,0 +1,74 @@
+button {
+    z-index: 10;
+}
+
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.clock {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    padding: 20px;
+    display: inline-block;
+    border: 5px solid;
+    border-radius: 10px;
+    animation: pulse 1.5s infinite ease-in-out, gradient-border 3s infinite;
+    position: relative;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.7);
+    background: #000000;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    transition: background 0.5s, color 0.5s;
+}
+
+body.dark-mode .clock {
+    background: linear-gradient(to right, #444, #222);
+    color: #fff;
+    border-color: #555;
+}
+
+body.light-mode .clock {
+    background: linear-gradient(to right, #e0e0e0, #b0b0b0);
+    color: #000;
+    border-color: #ccc;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes gradient-border {
+    0% {
+        border-color: #ff6a00;
+    }
+    25% {
+        border-color: #ee0979;
+    }
+    50% {
+        border-color: #8a2be2;
+    }
+    75% {
+        border-color: #4facfe;
+    }
+    100% {
+        border-color: #ff6a00;
+    }
+}
+
+.clock.no-pulse {
+    animation: gradient-border 3s infinite;
+}

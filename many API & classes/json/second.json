@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "category": "Bracelets",
+      "name": "Classic Gold Bracelet",
+      "description": "Simple and elegant gold bracelet for everyday wear.",
+      "brand": "GoldenLine",
+      "image": "https://www.nicols.es/58952-large_default/cuban-bracelet-20cm-solid-18k-yellow-gold.jpg",
+      "price": 7000,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "category": "Bracelets",
+      "name": "Silver Bracelet with Charms",
+      "description": "Decorative silver bracelet featuring multiple charms.",
+      "brand": "SilverCraft",
+      "image": "https://shop.nypl.org/cdn/shop/products/silver-bracelet-set_900x.jpg?v=1589518083",
+      "price": 5500,
+      "rating": 4.6
+    },
+    {
+      "id": 3,
+      "category": "Bracelets",
+      "name": "Leather Bracelet",
+      "description": "Modern bracelet made from high-quality leather.",
+      "brand": "UrbanStyle",
+      "image": "https://www.miabellucci.com/cdn/shop/products/black-plaited-cowhide-leather-bracelet-with-black-clasp-3-318699N.jpg?v=1675251365",
+      "price": 3000,
+      "rating": 4.4
+    },
+    {
+      "id": 4,
+      "category": "Bracelets",
+      "name": "Beaded Bracelet",
+      "description": "Handmade bracelet with natural stone beads.",
+      "brand": "BohoVibe",
+      "image": "https://images.squarespace-cdn.com/content/v1/57e469e1e4fcb56e71eeb981/1608307375263-A9QORUJRKTBK0II5K930/Bracelet_03.jpg?format=1000w",
+      "price": 2500,
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "category": "Bracelets",
+      "name": "Diamond Tennis Bracelet",
+      "description": "Luxurious bracelet adorned with high-quality diamonds.",
+      "brand": "DiamondLux",
+      "image": "https://5.imimg.com/data5/FA/GI/WN/SELLER-27645480/hkjewellers-diamond-bracelet-500x500.jpg",
+      "price": 40000,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "category": "Bracelets",
+      "name": "Gold Bangle Bracelet",
+      "description": "Sleek gold bangle for a modern and sophisticated look.",
+      "brand": "GoldenStyle",
+      "image": "https://debebians.com/cdn/shop/products/MOIB209.jpg?v=1567197349",
+      "price": 12000,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "category": "Bracelets",
+      "name": "Charm Bracelet",
+      "description": "Customizable bracelet with detachable charms.",
+      "brand": "CharmingCraft",
+      "image": "https://charmful.co.za/wp-content/uploads/2023/10/Ball-Shape-Charm-Bracelet-with-Stars.jpg",
+      "price": 6000,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "category": "Bracelets",
+      "name": "Rose Gold Bracelet",
+      "description": "Trendy rose gold bracelet with intricate detailing.",
+      "brand": "RoseJewels",
+      "image": "https://www.byinviteonly.shop/cdn/shop/products/AW-082022-RoseGoldConstanceCubicBracelet.jpg?v=1663044645",
+      "price": 7500,
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "category": "Bracelets",
+      "name": "Cuff Bracelet",
+      "description": "Bold cuff bracelet made from polished silver.",
+      "brand": "SilverEdge",
+      "image": "https://passionjewellery.com.au/wp-content/uploads/2022/09/Passionjewellery-ZB1006RG-1_68d5543c-338a-4efa-a706-009fb4f7b30a.jpg",
+      "price": 9000,
+      "rating": 4.5
+    },
+    {
+      "id": 10,
+      "category": "Bracelets",
+      "name": "Turquoise Beaded Bracelet",
+      "description": "Vibrant bracelet made with turquoise beads.",
+      "brand": "EarthStone",
+      "image": "https://lh4.googleusercontent.com/proxy/uWcMNNNhNwN_u7H8yAy7wEfILzZ1PkvSTD0tXu1mSDUzCtvDnRcoIlfNglyQXlQfjt8wF9KGVadxf8PIlAWge5EnRNMjeNzqCqYAGcpkxFSI6_-yV1i1yMGbFPrJ",
+      "price": 4000,
+      "rating": 4.4
+    },
+    {
+      "id": 11,
+      "category": "Bracelets",
+      "name": "Infinity Bracelet",
+      "description": "Silver bracelet with an infinity symbol centerpiece.",
+      "brand": "EndlessStyle",
+      "image": "https://www.jewlr.com/ca/product-img/JWLB0056.jpg?dim=500&view=t&sku=SS&s1=04CZIR&s2=04CZIR&ch=6.75SSFCABSR",
+      "price": 3500,
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "category": "Bracelets",
+      "name": "Adjustable String Bracelet",
+      "description": "Minimalist bracelet with an adjustable fit.",
+      "brand": "SimpleKnot",
+      "image": "https://m.media-amazon.com/images/I/31Ad4wxNxmS._AC_.jpg",
+      "price": 2000,
+      "rating": 4.3
+    },
+    {
+      "id": 13,
+      "category": "Bracelets",
+      "name": "Pearl Bracelet",
+      "description": "Classic bracelet made with natural pearls.",
+      "brand": "PearlCraft",
+      "image": "https://bearfruitjewelry.com/cdn/shop/files/ea1f2a6871685dff02ec5a10db132158_1920x.jpg?v=1689112355",
+      "price": 8000,
+      "rating": 4.9
+    },
+    {
+      "id": 14,
+      "category": "Bracelets",
+      "name": "Men's Stainless Steel Bracelet",
+      "description": "Durable bracelet with a masculine design.",
+      "brand": "SteelStyle",
+      "image": "https://neotrims.com/wp-content/uploads/2022/12/10476-1-1000x1000.jpg",
+      "price": 6000,
+      "rating": 4.5
+    },
+    {
+      "id": 15,
+      "category": "Bracelets",
+      "name": "Gold Chain Bracelet",
+      "description": "Simple and sleek gold chain bracelet.",
+      "brand": "GoldenLine",
+      "image": "https://www.karenkane.com/cdn/shop/files/B200027-GOL_1_750x.jpg?v=1698189902",
+      "price": 5000,
+      "rating": 4.7
+    },
+    {
+      "id": 16,
+      "category": "Bracelets",
+      "name": "Braided Leather Bracelet",
+      "description": "Casual leather bracelet with a braided design.",
+      "brand": "CasualCraft",
+      "image": "https://www.daysjewelers.com/cdn/shop/files/C00475895_1417688.jpg?v=1699388752",
+      "price": 2500,
+      "rating": 4.2
+    },
+    {
+      "id": 17,
+      "category": "Bracelets",
+      "name": "Crystal Beaded Bracelet",
+      "description": "Elegant bracelet with sparkling crystal beads.",
+      "brand": "CrystalLux",
+      "image": "https://img4.dhresource.com/webp/m/0x0/f3/albu/km/s/09/f946454f-a762-4563-8699-78424b871bb5.png",
+      "price": 4500,
+      "rating": 4.7
+    },
+    {
+      "id": 18,
+      "category": "Bracelets",
+      "name": "Fitness Tracker Bracelet",
+      "description": "Modern fitness tracker integrated into a stylish bracelet.",
+      "brand": "TechWear",
+      "image": "https://scdn-mizzfit-com.scdn7.secure.raxcdn.com/Public/Files/__Uploads/images/Mira-Fitness-Tracker-Mizzfit-Review-2.jpg",
+      "price": 10000,
+      "rating": 4.8
+    },
+    {
+      "id": 19,
+      "category": "Bracelets",
+      "name": "Charm Anklet Bracelet",
+      "description": "Stylish anklet with decorative charms.",
+      "brand": "CharmingStyle",
+      "image": "https://m.media-amazon.com/images/I/51RgdRLyVoL._AC_UY1100_.jpg",
+      "price": 3500,
+      "rating": 4.4
+    },
+    {
+      "id": 20,
+      "category": "Bracelets",
+      "name": "Engraved Bracelet",
+      "description": "Personalized bracelet with custom engraving.",
+      "brand": "PersonalTouch",
+      "image": "https://clothedwithtruth.com/cdn/shop/files/psalm287sterlingsilverlinkbraceletwithtoggleclasp_82376329-3e01-4f35-8505-16eb0648ea65_1200x.png?v=1706107052",
+      "price": 4000,
+      "rating": 4.6
+    }
+  ]
+  

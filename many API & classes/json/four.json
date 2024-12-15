@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "category": "Other Accessories",
+      "name": "Luxury Watch",
+      "description": "Premium stainless steel watch with a sapphire crystal.",
+      "brand": "TimepiecePro",
+      "image": "https://global.danielwellington.com/cdn/shop/products/bcc28b89dad3048a5b66b7f97808a0666437cfb7.png?v=1679583687&width=1500",
+      "price": 35000,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "category": "Other Accessories",
+      "name": "Silver Brooch",
+      "description": "Elegant silver brooch with floral detailing.",
+      "brand": "SilverArt",
+      "image": "https://png.pngtree.com/png-vector/20241123/ourlarge/pngtree-elegant-silver-leaf-brooch-with-white-pearls-for-holiday-decoration-png-image_14517377.png",
+      "price": 7000,
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "category": "Other Accessories",
+      "name": "Leather Belt",
+      "description": "Stylish leather belt with a gold buckle.",
+      "brand": "LeatherCraft",
+      "image": "https://www.beltnbags.com.au/cdn/shop/files/dubbo_2_grande.png?v=1687153939",
+      "price": 5000,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "category": "Other Accessories",
+      "name": "Ankle Bracelet",
+      "description": "Dainty anklet with sparkling crystal charms.",
+      "brand": "AnkletTrend",
+      "image": "https://cdn.supadupa.me/shop/2025/images/2396680/black_anklet_1_grande.png",
+      "price": 3500,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "category": "Other Accessories",
+      "name": "Hair Clip Set",
+      "description": "Set of decorative hair clips with pearl accents.",
+      "brand": "HairGlam",
+      "image": "https://darethcolburn.com/cdn/shop/products/TC-2276-S-1.jpg?v=1621971345&width=1080",
+      "price": 2000,
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "category": "Other Accessories",
+      "name": "Scarf",
+      "description": "Silk scarf with a vibrant floral pattern.",
+      "brand": "SilkElegance",
+      "image": "https://i.pinimg.com/474x/15/54/14/1554144aaf5b0f90875e6c7ec0731d9e.jpg",
+      "price": 4000,
+      "rating": 4.8
+    },
+    {
+      "id": 7,
+      "category": "Other Accessories",
+      "name": "Cufflinks",
+      "description": "Stylish silver cufflinks with a geometric design.",
+      "brand": "SuitStyle",
+      "image": "https://png.pngtree.com/png-vector/20240804/ourmid/pngtree-classic-silver-men-cufflinks-isolated-on-transparent-background-png-image_13184471.png",
+      "price": 6000,
+      "rating": 4.9
+    },
+    {
+      "id": 8,
+      "category": "Other Accessories",
+      "name": "Sunglasses",
+      "description": "Classic aviator sunglasses with polarized lenses.",
+      "brand": "SunGuard",
+      "image": "https://flyingeyesoptics.com/cdn/shop/products/CPR-MB-GMS_1400x.png?v=1673287136",
+      "price": 8000,
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "category": "Other Accessories",
+      "name": "Handbag Charm",
+      "description": "Cute handbag charm with a tassel and beads.",
+      "brand": "BagBuddy",
+      "image": "https://i5.walmartimages.com/seo/VINCHIC-26Letter-Keychain-Initial-Letter-Keyring-Alphabet-Resin-Flower-Key-Chain-with-Butterfly-Tassel-Pendant-Handbag-Purse-Charm-Pink-Petal-Keyring_258e1ca6-0926-4063-be16-c8d19d7a1fc2.5bd8f769a517c476e7c4a870bc33e4b3.png",
+      "price": 1500,
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "category": "Other Accessories",
+      "name": "Hat",
+      "description": "Wide-brimmed hat with a stylish ribbon.",
+      "brand": "SunShade",
+      "image": "https://ae01.alicdn.com/kf/S7db9d2019a1d4178b13d9038e8c7991cR.png",
+      "price": 5000,
+      "rating": 4.8
+    },
+    {
+      "id": 11,
+      "category": "Other Accessories",
+      "name": "Keychain",
+      "description": "Metal keychain with an engraved charm.",
+      "brand": "KeyGlam",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2024/8/440577902/GU/CV/EW/47463111/metal-engraved-keychain-500x500.png",
+      "price": 1000,
+      "rating": 4.4
+    },
+    {
+      "id": 12,
+      "category": "Other Accessories",
+      "name": "Hairband",
+      "description": "Stylish headband with a knotted design.",
+      "brand": "StyleHair",
+      "image": "https://static.vecteezy.com/system/resources/previews/048/896/876/non_2x/blue-fabric-headband-for-women-free-png.png",
+      "price": 1200,
+      "rating": 4.5
+    },
+    {
+      "id": 13,
+      "category": "Other Accessories",
+      "name": "Pocket Watch",
+      "description": "Vintage pocket watch with a brass finish.",
+      "brand": "TimeCapsule",
+      "image": "https://5.imimg.com/data5/KB/QS/MY-11525818/brass-pocket-clock-500x500.jpg",
+      "price": 15000,
+      "rating": 4.9
+    },
+    {
+      "id": 14,
+      "category": "Other Accessories",
+      "name": "Charm for Bracelets",
+      "description": "Customizable charm for your bracelet.",
+      "brand": "CharmCraft",
+      "image": "https://amadijewelry.com/cdn/shop/files/chain_bracelets-4.png?v=1728880296&width=900",
+      "price": 2500,
+      "rating": 4.7
+    },
+    {
+      "id": 15,
+      "category": "Other Accessories",
+      "name": "Tie Clip",
+      "description": "Sleek silver tie clip with a polished finish.",
+      "brand": "TieClass",
+      "image": "https://metapress.com/wp-content/uploads/2024/05/Tie-Bar-Trends-Whats-Hot-and-Whats-Not.png",
+      "price": 4000,
+      "rating": 4.6
+    },
+    {
+      "id": 16,
+      "category": "Other Accessories",
+      "name": "Wallet",
+      "description": "Leather wallet with RFID-blocking technology.",
+      "brand": "LeatherShield",
+      "image": "https://walleteras.com/cdn/shop/products/frontviewleatherwallet-WALLETERAS-S2ID_800x.png?v=1706996666",
+      "price": 7000,
+      "rating": 4.8
+    },
+    {
+      "id": 17,
+      "category": "Other Accessories",
+      "name": "Phone Case",
+      "description": "Stylish phone case with a marble design.",
+      "brand": "CaseStyle",
+      "image": "https://www.gocustomized.com/en-uk/cdn/shop/files/preview_images/iPhone15Pro-ToughCase-marble_7ddfcf19-4499-435b-b2e0-a79d59a782ab.png?v=1700821205&width=416",
+      "price": 2500,
+      "rating": 4.3
+    },
+    {
+      "id": 18,
+      "category": "Other Accessories",
+      "name": "Silk Handkerchief",
+      "description": "Elegant silk handkerchief with a paisley pattern.",
+      "brand": "ClassicStyle",
+      "image": "https://primeneckwear.com/cdn/shop/files/OliveYellowPaisleyNecktieandSquare.png?v=1717178009",
+      "price": 3000,
+      "rating": 4.8
+    },
+    {
+      "id": 19,
+      "category": "Other Accessories",
+      "name": "Shoe Clips",
+      "description": "Decorative shoe clips with rhinestone accents.",
+      "brand": "ShoeGlam",
+      "image": "https://m.media-amazon.com/images/I/61sukCOLvZL._AC_UY1000_.jpg",
+      "price": 2200,
+      "rating": 4.6
+    },
+    {
+      "id": 20,
+      "category": "Other Accessories",
+      "name": "Scarf Ring",
+      "description": "Stylish scarf ring with gold-plated detailing.",
+      "brand": "WrapStyle",
+      "image": "https://www.shenyuncollections.com/cdn/shop/products/sys-prod-signature-scarf-ring-gold-1.png?v=1595633136&width=1024",
+      "price": 1800,
+      "rating": 4.7
+    }
+  ]
+  

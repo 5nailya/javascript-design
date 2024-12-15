@@ -1,0 +1,110 @@
+.card-title .card-text {
+    color:white;
+}
+
+.adver {
+    position:relative;
+    vertical-align: middle;
+
+}
+
+/* Контейнер слайдера */
+.slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Слайдер */
+.slider {
+    display: flex;
+    width: calc(200%); 
+    animation: slide 20s linear infinite;
+    transition: transform 0.5s ease-in-out;
+}
+  
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50%); } /* Прокрутка на половину, чтобы показать остальные 8 карточек */
+    100% { transform: translateX(0); }
+}
+  
+  /* Карточки */
+.card {
+    flex: 1 0 12.5%; /* 8 карточек в ряду */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    h6 {
+        float:left;
+    }
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #e67e22;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #F7941D;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    display: none;
+    transition: 0.3s;
+}
+/* Показываем иконку при наведении на карточку */
+.card:hover .add-to-cart {
+    display: block;
+    transform: scale(1.1); /* Легкое увеличение иконки при наведении */
+}
+.heart-icon {
+    position: absolute;
+    display: none;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #F94D6E;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.heart-icon {
+    display: block;
+    transform: scale(1.1); /* Легкое увеличение иконки при наведении */
+}
+.prev {
+    left: 10px;
+}
+  
+.next {
+    right: 10px;
+}
+
+.but {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}

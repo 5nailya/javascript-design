@@ -1,0 +1,133 @@
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #eaeaea;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+#product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.6s ease;
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+.card.show {
+    opacity: 1;
+}
+
+.card.dark-mode {
+    background-color: #1e1e1e;
+    border-color: #444;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: #212529;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    flex-grow: 1;
+}
+
+.card-text-price {
+    font-size: 1.1rem;
+    margin-top: auto;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card .btn {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+body, .card, .btn {
+    transition: all 0.4s ease;
+}
+
+.form-range.custom-range {
+    width: 100%;
+    height: 12px;
+    background: #007bff;
+    border-radius: 8px;
+    outline: none;
+    transition: background 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-range.custom-range:focus {
+    background: #0056b3;
+}
+
+.form-range.custom-range:active {
+    background: #004085;
+}
+
+#theme-toggle {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+body.dark-mode .btn-dark-mode {
+    background-color: #444;
+    color: white;
+}
+
+body.dark-mode .btn-dark-mode:hover {
+    background-color: #333;
+}

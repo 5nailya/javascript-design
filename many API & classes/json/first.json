@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "category": "Rings",
+    "name": "Elegant Gold Ring",
+    "description": "Classic gold ring with a minimalist design.",
+    "brand": "GoldenLine",
+    "image": "https://media.istockphoto.com/id/1151605462/photo/engagement-gold-ring-with-one-diamond-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=9tZ_dwVDKWdGHvskHXsXvihv9vQmboL5Yrv7-zWyS2I=",
+    "price": 5000,
+    "rating": 4.7
+  },
+  {
+    "id": 2,
+    "category": "Rings",
+    "name": "Silver Ring with Cubic Zirconia",
+    "description": "Silver ring with a sparkling cubic zirconia.",
+    "brand": "SilverCraft",
+    "image": "https://www.uhrenschmuck24.ch/media/catalog/product/img/1/image/1080x1080/d/a/damenring-925-silber-rhodiniert-mit-zirkonia-rund-3376861-168381076925.jpg",
+    "price": 3000,
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "category": "Rings",
+    "name": "Emerald Ring",
+    "description": "Luxury ring featuring a large emerald in the center.",
+    "brand": "GemArt",
+    "image": "https://www.barkevs.com/themes/bliss/assets/engagement-rings/em-8269lem/shapes/round/one-carat-emerald-ring.jpg",
+    "price": 15000,
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "category": "Rings",
+    "name": "Wedding Band",
+    "description": "Traditional gold wedding band made from 14k gold.",
+    "brand": "WeddingDreams",
+    "image": "https://d3axzi3h8ik8h.cloudfront.net/productimages/prodimg/largemain/KS88A-Band.jpg",
+    "price": 7000,
+    "rating": 4.8
+  },
+  {
+    "id": 5,
+    "category": "Rings",
+    "name": "Diamond Ring",
+    "description": "Exclusive diamond ring of the highest quality.",
+    "brand": "DiamondLux",
+    "image": "https://ayaanidiamonds.com/wp-content/uploads/2023/08/A2LR0258-6.jpg",
+    "price": 50000,
+    "rating": 5.0
+  },
+  {
+    "id": 6,
+    "category": "Rings",
+    "name": "Sapphire Ring",
+    "description": "Elegant ring featuring a deep blue sapphire.",
+    "brand": "BlueStone",
+    "image": "https://www.cassandragoad.com/cdn/shop/files/04-02-023-750-54-14-53.jpg?v=1720171097&width=2048",
+    "price": 12000,
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "category": "Rings",
+    "name": "Platinum Ring",
+    "description": "Contemporary platinum ring for special occasions.",
+    "brand": "PlatinumLine",
+    "image": "https://www.jewelove.in/cdn/shop/files/jewelove-men-of-platinum-single-diamond-platinum-ring-for-men-jl-pt-686-men-s-band-only-si-ij-38784949747953_2048x2048.jpg?v=1719817697",
+    "price": 25000,
+    "rating": 4.9
+  },
+  {
+    "id": 8,
+    "category": "Rings",
+    "name": "Black Onyx Ring",
+    "description": "Stylish ring with a large black onyx.",
+    "brand": "MysticGems",
+    "image": "https://www.madeinearth.com.au/cdn/shop/products/BLACK_ONYX_FAC_OVAL_1_grande.jpg?v=1627719623",
+    "price": 8000,
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "category": "Rings",
+    "name": "Mother of Pearl Ring",
+    "description": "Lightweight ring featuring mother-of-pearl for daily wear.",
+    "brand": "PearlCraft",
+    "image": "https://hotdiamonds.co.uk/images/mother-of-pearl-circle-ring-p3061-10507_image.jpg",
+    "price": 2500,
+    "rating": 4.3
+  },
+  {
+    "id": 10,
+    "category": "Rings",
+    "name": "Minimalist Silver Ring",
+    "description": "Versatile silver ring with a clean, minimalist design.",
+    "brand": "Minimalist",
+    "image": "https://m.media-amazon.com/images/I/61cYW3z5XkL._AC_UY1000_.jpg",
+    "price": 2000,
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "category": "Rings",
+    "name": "Topaz Ring",
+    "description": "Elegant ring with a sky-blue topaz.",
+    "brand": "GemstoneArt",
+    "image": "https://sites.jewelfeed.com/si1465/catalog/items/f086433b-791a-4470-b8ce-bd780a86bd46.jpg.800x800_q85_background.jpg",
+    "price": 10000,
+    "rating": 4.7
+  },
+  {
+    "id": 12,
+    "category": "Rings",
+    "name": "Rose Gold Ring",
+    "description": "Trendy ring made of rose gold with delicate engraving.",
+    "brand": "RoseGold",
+    "image": "https://www.byinviteonly.shop/cdn/shop/files/2024.07.25-BIO-LoveKnotII-RoseGoldJubileeRing-02.jpg?v=1721716826",
+    "price": 8500,
+    "rating": 4.8
+  },
+  {
+    "id": 13,
+    "category": "Rings",
+    "name": "Antique Ring",
+    "description": "Vintage ring with intricate carving.",
+    "brand": "AntiqueJewels",
+    "image": "https://stephaniegottlieb.com/cdn/shop/files/img_t_27.jpg?v=1700585734&width=2048",
+    "price": 7000,
+    "rating": 4.5
+  },
+  {
+    "id": 14,
+    "category": "Rings",
+    "name": "Ruby Ring",
+    "description": "Ring with a bright red ruby centerpiece.",
+    "brand": "RubyElegance",
+    "image": "https://files.jewelfeed.com/catalog/items/51f3826b-d41b-4ec5-884a-9c6e36f62154.jpg.800x800_q85_background.jpg",
+    "price": 15000,
+    "rating": 4.8
+  },
+  {
+    "id": 15,
+    "category": "Rings",
+    "name": "Men's Steel Ring",
+    "description": "Durable ring made of stainless steel.",
+    "brand": "SteelCraft",
+    "image": "https://www.justrings.com.au/wp-content/uploads/2022/11/1122-Rings-Online-Jewellery-Shop-1.jpg",
+    "price": 3000,
+    "rating": 4.4
+  },
+  {
+    "id": 16,
+    "category": "Rings",
+    "name": "Tourmaline Ring",
+    "description": "Unique ring featuring natural tourmaline.",
+    "brand": "NatureGems",
+    "image": "https://www.carelle.com/cdn/shop/products/BC115Y8GTD_1__08064.1396890666.1000.1000.jpg?v=1631730547",
+    "price": 11000,
+    "rating": 4.6
+  },
+  {
+    "id": 17,
+    "category": "Rings",
+    "name": "Heart-Shaped Gold Ring",
+    "description": "Romantic gold ring shaped like a heart.",
+    "brand": "LoveJewels",
+    "image": "https://www.anguscoote.com.au/content/products/9ct-gold-created-ruby-diamond-heart-ring-7005257-205908.jpg?canvas=1:1&auto=webp&optimize=high&width=375",
+    "price": 6000,
+    "rating": 4.7
+  },
+  {
+    "id": 18,
+    "category": "Rings",
+    "name": "Swarovski Crystal Ring",
+    "description": "Shimmering ring with Swarovski crystals.",
+    "brand": "CrystalArt",
+    "image": "https://m.media-amazon.com/images/I/61rqbUPISTL._AC_UY1000_.jpg",
+    "price": 5000,
+    "rating": 4.8
+  },
+  {
+    "id": 19,
+    "category": "Rings",
+    "name": "Amber Ring",
+    "description": "Warm ring with natural amber.",
+    "brand": "AmberSoul",
+    "image": "https://autumnandmay-cdn-1.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/09/30042305/2R1097CG-1.jpg",
+    "price": 4500,
+    "rating": 4.3
+  },
+  {
+    "id": 20,
+    "category": "Rings",
+    "name": "Opal Ring",
+    "description": "Elegant ring with a shimmering opal centerpiece.",
+    "brand": "OpalMagic",
+    "image": "https://i.ebayimg.com/images/g/9zoAAOSwALpl7Xtv/s-l1200.jpg",
+    "price": 9000,
+    "rating": 4.7
+  }
+]
+
+  

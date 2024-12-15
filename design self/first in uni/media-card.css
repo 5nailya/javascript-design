@@ -1,0 +1,11 @@
+.media-card {
+    position: relative;
+    display: block;
+    padding-top: 140%;
+    border-radius: 4px;
+    background-color: hsla(240,5%,48%,.05);
+    background-color: var(--foreground-darken);
+    background-size: cover;
+    background-position: 50%;
+    cursor: pointer;
+}

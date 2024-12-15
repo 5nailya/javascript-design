@@ -1,0 +1,17 @@
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+#mode {
+    width: 40px;
+    height: 40px;
+}
+
+body{
+    color: light-dark(#333b3c, #efefec);
+    background-color: light-dark(#efedea, #223a2c);
+
+
+
+}

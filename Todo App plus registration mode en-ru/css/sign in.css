@@ -1,0 +1,179 @@
+.registration-container {
+    overflow: hidden;
+    position: relative;
+    animation: slideIn 0.6s ease-out;
+}
+
+.form-group label {
+    font-size: 14px;
+}
+
+.form-control {
+    border-radius: 30px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.form-group i {
+    color: purple;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-check-label {
+    font-size: 24px;
+    color: #555555;
+}
+
+.btn-primary {
+    background-color: #6a11cb;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-5px);
+    background-color: purple;
+}
+
+/* Links */
+.registration-container a {
+    color: #6a11cb;
+    text-decoration: none !important;
+}
+
+.registration-container a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+/* SVG Icon */
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+#mode {
+    width: 40px;
+    height: 40px;
+}
+
+/* Body Styles */
+body {
+    background-color: #efedea;
+    color: #333b3c;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Styles */
+body.bg-dark, 
+body.bg-dark .registration-container,
+body.bg-dark .form-control,
+body.bg-dark .btn-dark,
+body.bg-dark .form-check-label,
+body.bg-dark a {
+    color: #ffffff;
+}
+
+body.bg-dark .btn-primary {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+body.bg-dark .btn-primary:hover {
+    background-color: purple;
+    color: #fff;
+    border: none;
+}
+
+body.bg-dark a {
+    color: #ffffff;
+}
+
+body.bg-dark a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+body.bg-dark input[type="checkbox"] {
+    accent-color: #ffffff;
+}
+
+body.bg-dark .form-control {
+    background-color: #333;
+    color: #fff;
+}
+
+body.bg-dark .form-control::placeholder {
+    color: #aaa;
+}
+
+body.bg-dark .registration-container {
+    background-color: #222;
+    color: #fff;
+}
+
+input[type="checkbox"].check-dark {
+    accent-color: #ffffff;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.form-control:focus {
+    animation: focusAnimation 0.3s ease-in-out;
+    border-color: #6a11cb;
+}
+
+@keyframes focusAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.error-message {
+    display: none;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.show-error .error-message {
+    display: block;
+}
+
+#mode {
+    transition: transform 0.3s ease;
+}
+
+#mode:hover {
+    transform: rotate(360deg);
+}
+
+#lang-btn {
+    transition: opacity 0.3s ease;
+}
+
+#lang-btn:active {
+    opacity: 0.5;
+}

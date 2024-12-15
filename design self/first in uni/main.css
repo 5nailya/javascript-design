@@ -1,0 +1,15 @@
+main.css{
+    margin: 0;
+    padding: 0.6em;
+    box-sizing: border-box;
+    height: 40%;
+    width: 60%;
+    box-shadow: rgba(26, 9, 9, 0.4);
+    margin-bottom: 1em;
+
+}
+
+.card-img-botom{
+    width:"400";
+    height:"400";
+}

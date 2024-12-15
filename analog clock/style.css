@@ -1,0 +1,91 @@
+body {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+  
+.clock {
+  width: 300px;
+  height: 300px;
+  background: white;
+  border: 5px solid #000;
+  border-radius: 15%;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .clock {
+  background: #333;
+  border-color: #666;
+}
+  
+.center-point {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+  
+body.dark-mode .center-point {
+  background-color: #fff; 
+}
+  
+.hand {
+  position: absolute;
+  width: 4px;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: translateX(-50%);
+}
+  
+.hour-hand {
+  height: 70px;
+  z-index: 8;
+}
+
+.minute-hand {
+  height: 110px;
+  z-index: 9;
+}
+
+.second-hand {
+  height: 130px;
+  z-index: 10;
+}
+  
+.numbers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+  
+.number {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  transform: rotate(calc(var(--rotate) * 1deg)) translateY(-130px);
+  text-align: center;
+}
+  
+body.dark-mode .number {
+  color: #fff;
+}
+  
+  
